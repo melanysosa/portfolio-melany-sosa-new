@@ -1,0 +1,53 @@
+{
+	"homePage": {
+		"text1": "¡Hola!, soy ",
+		"text2": "Melany Sosa",
+		"text3": "Front-end developer",
+		"titleButtonHome": "Ver Proyectos",
+		"titleButtonHome2": "Sobre mi",
+		"iconLinkedin": "Mi Linkedin",
+		"iconGitHub": "Mi GitHub",
+		"iconEmail": "Enviame un correo",
+		"iconPerson": "Descargue mi CV"
+	},
+	"navBarPage": {
+		"itemHome": "Inicio",
+		"itemAbout": "Sobre mi",
+		"itemSkills": "Habilidades",
+		"itemProjects": "Proyectos",
+		"itemContact": "Contacto"
+	},
+	"aboutMePage": {
+		"titleAboutMe": "Sobre mi",
+		"part1AboutMe": "¡Hola! mi nombre es Melany, soy desarrolladora Front-end autodidacta",
+		"part2AboutMe": "Me encanta la idea de aprender nuevas tecnologías y aprovecharlas para crear proyectos innovadores e interesantes y así poder mejorar cada día. Creo que cosas increíbles se pueden lograr trabajando en equipo, porque podemos compartir conocimientos y aprender de las experiencias de los demás. Actualmente, estoy reforzando y ampliando mis conocimentos con un bootcamp llamado 'Open Bootcamp'."
+	},
+	"skillsPage": {
+		"titleSkills": "Habilidades",
+		"subtitleSkills": "Estas son las tecnologías con las que he trabajado",
+		"certificationTitle": "Certificaciones"
+
+	},
+	"projectsPages": {
+		"titleProjects": "Proyectos",
+		"subtitleProjects": "Mira mis trabajos recientes",
+		"containerProject1": "Ésta App de películas muestra la implementación de llamada a la API TMDB. Contiene un search, un botón animado, y las portadas abren una ventana modal con las reseñas de tu elección. El Home redirige a la pantalla principal de búsqueda. Se utilizó Bootstrap y css.",
+		"containerProject2": "Esta aplicación meteorológica muestra la implementación de la llamada a la API openweathermap con axios. Busca el clima de acuerdo a la ubicación que desee. Fue creado con Reactjs y css.",
+		"containerProject3": "(Crear, Leer, Actualizar, Eliminar) Éste proyecto fue creado con React.js, implementando redux-toolkit, react-router-dom y Tailwind",
+		"containerProject4": "Lista de tareas: Es un proyecto basado en el CRUD anterior. Creado con React.js, redux-toolkit, react-router-dom y Tailwind."
+	},
+	"contactPage": {
+		"titleContact": "Contacto",
+		"subtitleContact": "   Envíame un mensaje para contactarnos  ",
+		"inputName": "Nombre",
+		"inputEmail": "Correo electronico",
+		"inputTextarea": "Mensaje",
+		"validP": "Proporcione una dirección de correo electrónico válida.",
+		"buttonContact": "Enviar Mensaje"
+	},
+	"footer": {
+		"part1": "Hecho con",
+		"part2": "usando",
+		"part3": "por Mel"
+	}
+}
