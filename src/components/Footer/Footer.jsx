@@ -13,7 +13,7 @@ const Footer = () => {
 			<p>
 				<a
 					className={style.pFooter}
-					href='https://github.com/melanysosa/portfolio-melany-sosa'
+					href='https://github.com/melanysosa/portfolio-melany-sosa-new'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
