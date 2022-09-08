@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Resume from '../../assets/Sosa-Melany-CV.pdf';
+import Resume from '../../assets/Sosa-MelanyCV.pdf';
 import useStyles from './useStyles';
 import Button from '../../components/Button/Button';
 import { motion } from 'framer-motion';
@@ -17,7 +17,6 @@ import {
 import { useTranslation } from 'react-i18next';
 import ButtonTranslate from '../../components/ButtonTranslate/ButtonTranslate';
 import Footer from '../../components/Footer/Footer';
-
 
 const Home = () => {
 	const [t] = useTranslation('language');
@@ -38,7 +37,6 @@ const Home = () => {
 			variants={opacityPages}
 		>
 			<ButtonTranslate />
-			
 
 			{/**Container */}
 			<div className={styles.containerHome}>
