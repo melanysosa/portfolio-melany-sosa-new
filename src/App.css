@@ -5,7 +5,7 @@ body {
 }
 
 .navbar-mobileBg {
-	background: url('./assets/bg/nav-bg5.jpg') no-repeat center center/cover;
+	background: url('./assets/bg/bg-nav.jpg') no-repeat center center/cover;
 }
 video {
 	position: fixed;
