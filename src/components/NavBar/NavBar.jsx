@@ -4,7 +4,7 @@ import Logo from '../../assets/MS-Logo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import useStyles from './useStyles';
 import { useTranslation } from 'react-i18next';
-
+import bgVideo from '../../assets/bg/bg-video3.mp4';
 const NavBar = () => {
 	const styles = useStyles();
 	const navigate = useNavigate();
@@ -17,35 +17,44 @@ const NavBar = () => {
 
 	return (
 		<div className={styles.containerNav}>
+		
+			
+			
 			<img onClick={toHome} src={Logo} alt='Logo img' className='w-[50px]' />
-
 			<div className='flex items-center'>
 				<ul className={styles.nav}>
-					<li className={styles.navLi}>
-						<Link to='/'>{t('navBarPage.itemHome')}</Link>
-					</li>
-					<li className={styles.navLi}>
-						<Link to='/about'>{t('navBarPage.itemAbout')}</Link>
-					</li>
-					<li className={styles.navLi}>
-						<Link to='/skills'>{t('navBarPage.itemSkills')}</Link>
-					</li>
-					<li className={styles.navLi}>
-						<Link to='/work'>{t('navBarPage.itemProjects')}</Link>
-					</li>
-					<li className={styles.navLi}>
-						<Link to='/contact'>{t('navBarPage.itemContact')}</Link>
-					</li>
+					<Link to='/'>
+						<li className={styles.navLi}>{t('navBarPage.itemHome')}</li>
+					</Link>
+					<Link to='/about'>
+						<li className={styles.navLi}>{t('navBarPage.itemAbout')}</li>
+					</Link>
+					<Link to='/skills'>
+						<li className={styles.navLi}>{t('navBarPage.itemSkills')}</li>
+					</Link>
+					<Link to='/work'>
+						<li className={styles.navLi}>
+							{t('navBarPage.itemProjects')}
+						</li>
+					</Link>
+					<Link to='/contact'>
+						<li className={styles.navLi}>
+							{t('navBarPage.itemContact')}
+						</li>
+					</Link>
 				</ul>
 			</div>
 			{/** Hamburguer */}
-
 			{!nav ? (
 				<div onClick={handleClick} className={styles.faBars}>
 					<FaBars />
 				</div>
 			) : (
+			
 				<div onClick={handleClick}>
+			<video autoPlay loop muted>
+				<source src={bgVideo} type='video/mp4' />
+			</video>
 					<ul className={styles.navMobile}>
 						<div className={styles.faTimes}>
 							<FaTimes />

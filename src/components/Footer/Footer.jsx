@@ -1,4 +1,4 @@
-import { FaReact, FaRegHeart } from 'react-icons/fa';
+ import { FaReact, FaRegHeart } from 'react-icons/fa';
 import useStyles from './useStyles';
 import { useTranslation } from 'react-i18next';
 import { GoMarkGithub } from 'react-icons/go';

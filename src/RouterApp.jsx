@@ -9,9 +9,10 @@ import bgVideo from '../src/assets/bg/bg-video3.mp4';
 
 const RouterApp = () => {
 	return (
-		<div>	<video autoPlay loop muted>
-					<source src={bgVideo} type='video/mp4' />
-				</video>
+		<div>	
+		<video autoPlay loop muted>
+			<source src={bgVideo} type='video/mp4' />
+		</video>
 			<Routes>
 			
 				<Route path='/' element={<Home />} />
