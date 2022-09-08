@@ -4,7 +4,7 @@ import Logo from '../../assets/MS-Logo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import useStyles from './useStyles';
 import { useTranslation } from 'react-i18next';
-import bgVideo from '../../assets/bg/bg-video3.mp4';
+
 const NavBar = () => {
 	const styles = useStyles();
 	const navigate = useNavigate();
@@ -52,9 +52,7 @@ const NavBar = () => {
 			) : (
 			
 				<div onClick={handleClick}>
-			<video autoPlay loop muted>
-				<source src={bgVideo} type='video/mp4' />
-			</video>
+			
 					<ul className={styles.navMobile}>
 						<div className={styles.faTimes}>
 							<FaTimes />
