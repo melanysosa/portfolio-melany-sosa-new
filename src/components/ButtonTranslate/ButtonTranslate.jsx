@@ -3,7 +3,7 @@ import { useState } from 'react';
 import useStyles from './useStyles';
 
 const ButtonTranslate = () => {
-	const { i18n} = useTranslation();
+	const { i18n } = useTranslation();
 	const styles = useStyles();
 	const [lang, setLang] = useState(false);
 	const handleChange = () => setLang(!lang);
@@ -16,12 +16,10 @@ const ButtonTranslate = () => {
 			onChange={handleChange}
 			onClick={changeLanguage}
 		>
-			
-			<label className='switch'>
+			<label id='btn-translate' className='switch'>
 				<input type='checkbox' />
 				<span className='slider'></span>
 			</label>
-			
 		</div>
 	);
 };

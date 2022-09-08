@@ -7,6 +7,7 @@ body {
 .navbar-mobileBg {
 	background: url('./assets/bg/bg-nav.jpg') no-repeat center center/cover;
 }
+
 video {
 	position: fixed;
 	z-index: -1;
@@ -22,6 +23,7 @@ video {
 	display: inline-block;
 	width: 70px;
 	height: 30px;
+	cursor: pointer;
 }
 
 .switch input {
@@ -30,7 +32,6 @@ video {
 
 .slider {
 	position: absolute;
-	cursor: pointer;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -39,6 +40,7 @@ video {
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 	border-radius: 34px;
+	z-index: -1;
 }
 
 .slider:before {
@@ -52,6 +54,7 @@ video {
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 	border-radius: 50%;
+	z-index: -1;
 }
 
 input:checked + .slider {

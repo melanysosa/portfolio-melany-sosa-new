@@ -47,7 +47,7 @@ const NavBar = () => {
 					<FaBars />
 				</div>
 			) : (
-				<div onClick={handleClick}>
+				<div className='nav-mobile' onClick={handleClick}>
 					<ul className={styles.navMobile}>
 						<div className={styles.faTimes}>
 							<FaTimes />
