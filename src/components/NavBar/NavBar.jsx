@@ -17,9 +17,6 @@ const NavBar = () => {
 
 	return (
 		<div className={styles.containerNav}>
-		
-			
-			
 			<img onClick={toHome} src={Logo} alt='Logo img' className='w-[50px]' />
 			<div className='flex items-center'>
 				<ul className={styles.nav}>
@@ -50,9 +47,7 @@ const NavBar = () => {
 					<FaBars />
 				</div>
 			) : (
-			
 				<div onClick={handleClick}>
-			
 					<ul className={styles.navMobile}>
 						<div className={styles.faTimes}>
 							<FaTimes />
