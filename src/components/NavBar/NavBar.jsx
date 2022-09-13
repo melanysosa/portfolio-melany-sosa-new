@@ -17,7 +17,12 @@ const NavBar = () => {
 
 	return (
 		<div className={styles.containerNav}>
-			<img onClick={toHome} src={Logo} alt='Logo img' className='w-[50px]' />
+			<img
+				onClick={toHome}
+				src={Logo}
+				alt='Logo img'
+				className={styles.logo}
+			/>
 			<div className='flex items-center'>
 				<ul className={styles.nav}>
 					<Link to='/'>
