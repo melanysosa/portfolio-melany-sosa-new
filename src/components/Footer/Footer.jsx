@@ -1,4 +1,4 @@
- import { FaReact, FaRegHeart } from 'react-icons/fa';
+import { FaReact, FaRegHeart } from 'react-icons/fa';
 import useStyles from './useStyles';
 import { useTranslation } from 'react-i18next';
 import { GoMarkGithub } from 'react-icons/go';
@@ -13,7 +13,7 @@ const Footer = () => {
 			<p>
 				<a
 					className={style.pFooter}
-					href='https://github.com/melanysosa/portfolio-melany-sosa-new'
+					href='https://github.com/melanysosa'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
