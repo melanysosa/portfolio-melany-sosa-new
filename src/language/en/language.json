@@ -1,14 +1,14 @@
 {
 	"homePage": {
 		"text1": "Hello!,I'm ",
-		"text3":"Melany Sosa",
+		"text3": "Melany Sosa",
 		"text2": "Front-end developer",
 		"titleButtonHome": "View Projects",
 		"titleButtonHome2": "About Me",
-		"iconLinkedin":"My Linkedin",
-		"iconGitHub":"My GitHub",
-		"iconEmail":"Send me an emai",
-		"iconPerson":"Download my resume"
+		"iconLinkedin": "My Linkedin",
+		"iconGitHub": "My GitHub",
+		"iconEmail": "Send me an emai",
+		"iconPerson": "Download my resume"
 	},
 	"navBarPage": {
 		"itemHome": "Home",
@@ -20,21 +20,20 @@
 	"aboutMePage": {
 		"titleAboutMe": "About me",
 		"part1AboutMe": "Hey there! , my name is Melany, I'm  a front-end developer autodidact",
-		"part2AboutMe": "I love the idea of learning new technologies and taking advantage of them to create innovative and interesting projects and thus be able to improve myself every day. I believe that incredible things can be achieved by working as a team, because we can share knowledge and learn from the experiences of others. Currently, I am strengthening and expanding my knowledge with a bootcamp called 'Open Bootcamp'"
+		"part2AboutMe": "I love the idea of learning new technologies and using them to create innovative and interesting projects to improve me day by day. I believe that incredible things can be achieved by working as a team, because we can share knowledge and learn from the experiences of others. Currently, I am strengthening and expanding my knowledge with a bootcamp called 'Open Bootcamp'"
 	},
 	"skillsPage": {
 		"titleSkills": "Skills",
 		"subtitleSkills": "These are the technologies i've worked with",
-		"certificationTitle":"Certifications"
+		"certificationTitle": "Certifications"
 	},
 	"projectsPages": {
 		"titleProjects": "Projects",
 		"subtitleProjects": " Check out some of my recent work",
 		"containerProject1": "This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
 		"containerProject2": "This Weather App shows the implementation of the openweathermap API call with axios. It looks for the weather according to the location you want. It was created with Reactjs and css.",
-		"containerProject3":"(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",
+		"containerProject3": "(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",
 		"containerProject4": "To do List - This is a CRUD based project. Built with React.js, redux-toolkit, react-router-dom, and Tailwind."
-		
 	},
 	"contactPage": {
 		"titleContact": "Contact",

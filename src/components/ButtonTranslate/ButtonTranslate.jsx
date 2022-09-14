@@ -11,13 +11,13 @@ const ButtonTranslate = () => {
 		lang ? i18n.changeLanguage('es') : i18n.changeLanguage('en');
 	};
 	return (
-		<div
-			className={styles.containerBtnTranslate}
-			onChange={handleChange}
-			onClick={changeLanguage}
-		>
+		<div className={styles.containerBtnTranslate}>
 			<label id='btn-translate' className='switch'>
-				<input type='checkbox' />
+				<input
+					onChange={handleChange}
+					onClick={changeLanguage}
+					type='checkbox'
+				/>
 				<span className='slider'></span>
 			</label>
 		</div>
