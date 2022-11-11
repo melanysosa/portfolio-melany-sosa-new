@@ -1,9 +1,10 @@
-import React from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Resume from '../../assets/Sosa-MelanyCV.pdf';
+import ResumeEs from '../../assets/Sosa Melany NoeliaCV (es).pdf';
+import ResumeEN from '../../assets/Sosa-MelanyCV (en).pdf';
 import useStyles from './useStyles';
 import Button from '../../components/Button/Button';
 import { motion } from 'framer-motion';
@@ -17,6 +18,7 @@ import {
 import { useTranslation } from 'react-i18next';
 import ButtonTranslate from '../../components/ButtonTranslate/ButtonTranslate';
 import Footer from '../../components/Footer/Footer';
+import Modal from '../../components/Modal/Modal';
 
 const Home = () => {
 	const [t] = useTranslation('language');
@@ -26,6 +28,12 @@ const Home = () => {
 	const toWork = () => navigate('/work');
 	const toContact = () => navigate('/contact');
 	const toAboutMe = () => navigate('/about');
+
+	const [modalOn, setModalOn] = useState(false);
+
+	const clicked = () => {
+		setModalOn(true);
+	};
 
 	return (
 		<motion.div
@@ -96,17 +104,26 @@ const Home = () => {
 					</motion.div>
 					<motion.div variants={movement}>
 						<div className={styles.socialIcons}>
-							<a
+							<div
 								className={styles.aResume}
-								href={Resume}
-								target='_blank'
-								rel='noopener noreferrer'
 								title={t('homePage.iconPerson')}
+								onClick={clicked}
 							>
 								<BsFillPersonLinesFill size={30} />
-							</a>
+							</div>
 						</div>
 					</motion.div>
+					{modalOn && (
+						<Modal
+							setModalOn={setModalOn}
+							titleModal={t('homePage.titleModal')}
+							document1={t('homePage.cvSpanish')}
+							href={ResumeEs}
+							document2={t('homePage.cvEnglish')}
+							href2={ResumeEN}
+							button={t('homePage.btnModal')}
+						/>
+					)}
 				</motion.div>
 
 				<motion.div className='flex' variants={movementY}>

@@ -8,7 +8,11 @@
 		"iconLinkedin": "My Linkedin",
 		"iconGitHub": "My GitHub",
 		"iconEmail": "Send me an emai",
-		"iconPerson": "Download my resume"
+		"iconPerson": "Download my resume",
+		"cvSpanish":"Spanish",
+		"cvEnglish": "English",
+		"titleModal":"Download resume",
+		"btnModal":"Close"
 	},
 	"navBarPage": {
 		"itemHome": "Home",
