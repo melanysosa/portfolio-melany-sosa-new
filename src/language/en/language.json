@@ -1,14 +1,15 @@
 {
 	"homePage": {
 		"text1": "Hello!,I'm ",
-		"text3": "Melany Sosa",
-		"text2": "Front-end developer",
+		"text2": "Melany Sosa",
+		"text3": "Front-end developer and UI/UX Designer",
 		"titleButtonHome": "View Projects",
 		"titleButtonHome2": "About Me",
 		"iconLinkedin": "My Linkedin",
 		"iconGitHub": "My GitHub",
 		"iconEmail": "Send me an emai",
 		"iconPerson": "Download my resume",
+		"iconBehance": "My Behance",
 		"cvSpanish":"Spanish",
 		"cvEnglish": "English",
 		"titleModal":"Download resume",
