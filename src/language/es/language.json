@@ -24,8 +24,8 @@
 	},
 	"aboutMePage": {
 		"titleAboutMe": "Sobre mi",
-		"part1AboutMe": "¡Hola! mi nombre es Melany, soy desarrolladora Front-end autodidacta",
-		"part2AboutMe": "Me encanta la idea de aprender nuevas tecnologías y aprovecharlas para crear proyectos innovadores e interesantes y así poder mejorar cada día. Creo que cosas increíbles se pueden lograr trabajando en equipo, porque podemos compartir conocimientos y aprender de las experiencias de los demás. Actualmente, estoy reforzando y ampliando mis conocimentos con un bootcamp llamado 'Open Bootcamp'."
+		"part1AboutMe": "¡Hola! mi nombre es Melany, soy desarrolladora Front-end autodidacta y Diseñadora UI/UX",
+		"part2AboutMe": "Me encanta combinar ambas disciplinas para dar vida a proyectos asombrosos. Siempre estoy buscando superar mis propios límites y aprender algo nuevo cada día. En mi opinión, el trabajo en equipo es clave, ya que nos permite compartir conocimientos y enriquecernos con las experiencias de los demás. Actualmente me encuentro estudiando en MDP programa desarollo Full-Stack,ademas estudie diseño UI/UX en coderhause para ampliar mis habilidades."
 	},
 	"skillsPage": {
 		"titleSkills": "Habilidades",
@@ -36,6 +36,7 @@
 	"projectsPages": {
 		"titleProjects": "Proyectos",
 		"subtitleProjects": "Mira mis trabajos recientes",
+		"containerProjectUIUX": "Proyecto de diseño UI/UX: Es una aplicación de recomendación de películas y series que le facilita la busqueda al usuario mostrando en que plataformas se encuentran disponibles. Creada con metodología design thinking ",
 		"containerProject1": "Ésta App de películas muestra la implementación de llamada a la API TMDB. Contiene un search, un botón animado, y las portadas abren una ventana modal con las reseñas de tu elección. El Home redirige a la pantalla principal de búsqueda. Se utilizó Bootstrap y css.",
 		"containerProject2": "Esta aplicación meteorológica muestra la implementación de la llamada a la API openweathermap con axios. Busca el clima de acuerdo a la ubicación que desee. Fue creado con Reactjs y css.",
 		"containerProject3": "(Crear, Leer, Actualizar, Eliminar) Éste proyecto fue creado con React.js, implementando redux-toolkit, react-router-dom y Tailwind",

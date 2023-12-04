@@ -1,6 +1,6 @@
 import useStyles from './useStyles';
 import { motion } from 'framer-motion';
-import MelanyAbout from '../../assets/melany.jpeg';
+import MelanyAbout from '../../assets/Melany-cv.jpeg';
 import {
 	movementX2,
 	opacityPages,

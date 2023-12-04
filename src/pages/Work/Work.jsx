@@ -5,6 +5,7 @@ import {
 	movementX2,
 	movementX1,
 } from '../../components/Animations/animations';
+import ProjectUIUX from '../../assets/ProjectUIUX.png';
 import Project1 from '../../assets/project1.png';
 import Project2 from '../../assets/project2.png';
 import Project3 from '../../assets/project3.png';
@@ -26,7 +27,6 @@ const Work = () => {
 			animate='visible'
 			variants={opacityPages}
 		>
-			
 			<div className={styles.divContainer}>
 				<motion.div variants={movementX1} className={styles.divP}>
 					<p className={styles.title}>
@@ -43,8 +43,18 @@ const Work = () => {
 				<motion.div className={styles.divContainer2} variants={movementX2}>
 					{/**Grid Item */}
 					<WorkBox
+						pic={ProjectUIUX}
+						title='Flick Flow'
+						showDemoButton={true}
+						demo='https://www.behance.net/gallery/183617661/FlickFlow'
+						text={t('projectsPages.containerProjectUIUX')}
+					/>
+
+					<WorkBox
 						pic={Project1}
 						title='Popular Movies'
+						showDemoButton={true}
+						showCodeButton={true}
 						demo='https://popular-movies-m.netlify.app/'
 						code='https://github.com/melanysosa/popular-movies-app'
 						text={t('projectsPages.containerProject1')}
@@ -53,6 +63,8 @@ const Work = () => {
 					<WorkBox
 						pic={Project2}
 						title='Weather App'
+						showDemoButton={true}
+						showCodeButton={true}
 						demo='https://weather-appms.netlify.app/'
 						code='https://github.com/melanysosa/weather-app'
 						text={t('projectsPages.containerProject2')}
@@ -61,6 +73,8 @@ const Work = () => {
 					<WorkBox
 						pic={Project3}
 						title='CRUD'
+						showDemoButton={true}
+						showCodeButton={true}
 						demo='https://crud-m.netlify.app/'
 						code='https://github.com/melanysosa/crud-redux-app'
 						text={t('projectsPages.containerProject3')}
@@ -68,6 +82,8 @@ const Work = () => {
 					<WorkBox
 						pic={Project4}
 						title='Todo List'
+						showDemoButton={true}
+						showCodeButton={true}
 						demo='https://todo-list-mns.netlify.app/'
 						code='https://github.com/melanysosa/todo-list'
 						text={t('projectsPages.containerProject4')}

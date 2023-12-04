@@ -1,7 +1,15 @@
 import React from 'react';
 import useStyles from './useStyles';
 
-const WorkBox = ({ pic, title, demo, code, text }) => {
+const WorkBox = ({
+	pic,
+	title,
+	demo,
+	code,
+	text,
+	showDemoButton,
+	showCodeButton,
+}) => {
 	const styles = useStyles();
 
 	return (
@@ -10,13 +18,27 @@ const WorkBox = ({ pic, title, demo, code, text }) => {
 				{/* hover effects */}
 				<div className={styles.hover}>
 					<span className={styles.titleWorkBox}>{title}</span>
-					<div className={styles.Btns}>
-						<a href={demo} target='_blank' rel='noopener noreferrer'>
-							<button className={styles.workbtn}>Demo</button>
-						</a>
-						<a href={code} target='_blank' rel='noopener noreferrer'>
-							<button className={styles.workbtn}>Code</button>
-						</a>
+					<div className='btnCodeDemo'>
+						<div className={styles.Btns}>
+							{showDemoButton && (
+								<a
+									href={demo}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<button className={styles.workbtn}>Demo</button>
+								</a>
+							)}
+							{showCodeButton && (
+								<a
+									href={code}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<button className={styles.workbtn}>Code</button>
+								</a>
+							)}
+						</div>
 					</div>
 				</div>
 			</div>

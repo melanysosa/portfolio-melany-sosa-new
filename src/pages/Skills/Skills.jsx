@@ -2,12 +2,13 @@ import HTML from '../../assets/html.png';
 import CSS from '../../assets/css.png';
 import Javascript from '../../assets/javascript.png';
 import ReactJS from '../../assets/react.png';
-import Redux from '../../assets/redux.png';
+import NextJs from '../../assets/nextjs-icon.png';
 import Git from '../../assets/git.png';
 import Github from '../../assets/github.png';
 import Sass from '../../assets/sass.png';
 import Bootstrap from '../../assets/bootstrap.png';
 import Tailwind from '../../assets/tailwind.png';
+import Figma from '../../assets/Figma-logo.png';
 import useStyles from './useStyles';
 import { motion } from 'framer-motion';
 import {
@@ -18,6 +19,7 @@ import {
 import { useTranslation } from 'react-i18next';
 import Footer from '../../components/Footer/Footer';
 import { Certification } from './Certification';
+import UIUX from '../../assets/UIUX.png';
 import htmlCss from '../../assets/html-Css-OB.jpg';
 import JS from '../../assets/javaScript-OB.jpg';
 
@@ -77,10 +79,10 @@ const Skills = () => {
 					<div className={styles.skillsDiv}>
 						<img
 							className={styles.skillsImg}
-							src={Redux}
-							alt='Redux Logo'
+							src={NextJs}
+							alt='Next Logo'
 						/>
-						<p className={styles.skillsP}>Redux</p>
+						<p className={styles.skillsP}>Next</p>
 					</div>
 					<div className={styles.skillsDiv}>
 						<img className={styles.skillsImg} src={Git} alt='Git Logo' />
@@ -118,13 +120,22 @@ const Skills = () => {
 						/>
 						<p className={styles.skillsP}>Tailwind</p>
 					</div>
+					<div className={styles.skillsDiv}>
+						<img
+							className={styles.skillsImg}
+							src={Figma}
+							alt='Figma Logo'
+						/>
+						<p className={styles.skillsP}>Figma</p>
+					</div>
 				</motion.div>
 			</div>
 			<motion.div variants={movementX1}>
 				<p className={styles.titleSkills}>
 					{t('skillsPage.certificationTitle')}
 				</p>
-				<Certification title={'Html/Css'} img={htmlCss} alt={'HTML/CSS}'} />
+				<Certification title={'UI/UX'} img={UIUX} alt={'UI/UX'} />
+				<Certification title={'Html/Css'} img={htmlCss} alt={'HTML/CSS'} />
 				<Certification title={'JavaScript'} img={JS} alt={'JS'} />
 			</motion.div>
 			<Footer />

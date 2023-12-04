@@ -24,8 +24,8 @@
 	},
 	"aboutMePage": {
 		"titleAboutMe": "About me",
-		"part1AboutMe": "Hey there! , my name is Melany, I'm  a front-end developer autodidact",
-		"part2AboutMe": "I love the idea of learning new technologies and using them to create innovative and interesting projects to improve me day by day. I believe that incredible things can be achieved by working as a team, because we can share knowledge and learn from the experiences of others. Currently, I am strengthening and expanding my knowledge with a bootcamp called 'Open Bootcamp'"
+		"part1AboutMe": "Hey there! , my name is Melany, I'm  a front-end developer autodidact and UI/UX Designer",
+		"part2AboutMe": "I love combining both disciplines to bring amazing projects to life. I am always looking to push my own limits and learn something new every day. In my opinion, teamwork is key, as it allows us to share knowledge and enrich ourselves with the experiences of others. Currently, I am studying in the MDP Full-Stack Development program, and I also studied UI/UX design at Coderhouse to expand my skills."
 	},
 	"skillsPage": {
 		"titleSkills": "Skills",
@@ -35,6 +35,7 @@
 	"projectsPages": {
 		"titleProjects": "Projects",
 		"subtitleProjects": " Check out some of my recent work",
+		"containerProjectUIUX": "UI/UX Design Project: It is a movie and series recommendation application that simplifies the user's search by displaying the platforms where they are available. Created using design thinking methodology",
 		"containerProject1": "This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
 		"containerProject2": "This Weather App shows the implementation of the openweathermap API call with axios. It looks for the weather according to the location you want. It was created with Reactjs and css.",
 		"containerProject3": "(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",
