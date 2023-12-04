@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaBehance } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import ResumeEs from '../../assets/Melany-Sosa(es).pdf';
@@ -100,6 +100,19 @@ const Home = () => {
 							>
 								<HiOutlineMail size={30} />
 							</div>
+						</div>
+					</motion.div>
+					<motion.div variants={movement}>
+						<div className={styles.socialIcons}>
+							<a
+								className={styles.aBehance}
+								href='https://www.behance.net/melanysosa4'
+								target='_blank'
+								rel='noopener noreferrer'
+								title={t('homePage.iconBehance')}
+							>
+								<FaBehance size={30} />
+							</a>
 						</div>
 					</motion.div>
 					<motion.div variants={movement}>

@@ -11,6 +11,7 @@ const useStyles = () => {
 		aLinkedin: 'flex justify-center items-center w-full text-white',
 		aGitHub: 'flex justify-center items-center w-full text-white ',
 		aMail: 'flex justify-center items-center w-full text-white  ',
+		aBehance: 'flex justify-center items-center w-full text-white  ',
 
 		aResume: 'flex justify-center items-center w-full text-white ',
 		iconButton: 'ml-2',
