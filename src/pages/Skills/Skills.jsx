@@ -9,6 +9,10 @@ import Sass from '../../assets/sass.png';
 import Bootstrap from '../../assets/bootstrap.png';
 import Tailwind from '../../assets/tailwind.png';
 import Figma from '../../assets/Figma-logo.png';
+import Nodejs from '../../assets/Nodejs.png';
+import MongoDb from '../../assets/Mongodb (2).png'
+import Express from '../../assets/Express.png';
+import Typescript from '../../assets/Typescript.png';
 import useStyles from './useStyles';
 import { motion } from 'framer-motion';
 import {
@@ -128,6 +132,35 @@ const Skills = () => {
 						/>
 						<p className={styles.skillsP}>Figma</p>
 					</div>
+					<div className={styles.skillsDiv}>
+						<img
+							className={styles.skillsImg}
+							src={Nodejs}
+							alt='NodeLogo'
+						/>
+						<p className={styles.skillsP}>Node.Js</p>
+					</div>
+					<div className={styles.skillsDiv}>
+						<img
+							className={styles.skillsImg}
+							src={Express}
+							alt='Express'
+						/>
+						<p className={styles.skillsP}>Express</p>
+					</div>
+					<div className={styles.skillsDiv}>
+						<img className={styles.skillsImg} src={MongoDb} alt='Mongo' />
+						<p className={styles.skillsP}>Mongo DB</p>
+						
+					</div>
+					<div className={styles.skillsDiv}>
+							<img
+								className={styles.skillsImg}
+								src={Typescript}
+								alt='Typescript Logo'
+							/>
+							<p className={styles.skillsP}>Typescript</p>
+						</div>
 				</motion.div>
 			</div>
 			<motion.div variants={movementX1}>
