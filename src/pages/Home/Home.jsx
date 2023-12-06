@@ -2,9 +2,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaBehance } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import ResumeEs from '../../assets/Melany-Sosa(es).pdf';
-import ResumeEN from '../../assets/Melany-Sosa(en).pdf';
+import ResumeEs from '../../assets/Melany-Sosa(mdp-p).pdf';
+import ResumeEN from '../../assets/Melany-Sosa(en-mdp-p).pdf';
 import useStyles from './useStyles';
 import Button from '../../components/Button/Button';
 import { motion } from 'framer-motion';
@@ -25,13 +24,12 @@ const Home = () => {
 
 	const styles = useStyles();
 	const navigate = useNavigate();
-	const toWork = () => navigate('/work');
 	const toContact = () => navigate('/contact');
 	const toAboutMe = () => navigate('/about');
 
 	const [modalOn, setModalOn] = useState(false);
 
-	const clicked = () => {
+	const clickedResume = () => {
 		setModalOn(true);
 	};
 
@@ -115,17 +113,21 @@ const Home = () => {
 							</a>
 						</div>
 					</motion.div>
-					<motion.div variants={movement}>
-						<div className={styles.socialIcons}>
-							<div
-								className={styles.aResume}
-								title={t('homePage.iconPerson')}
-								onClick={clicked}
-							>
-								<BsFillPersonLinesFill size={30} />
-							</div>
-						</div>
-					</motion.div>
+				
+				</motion.div>
+
+				<motion.div className='flex' variants={movementY}>
+					<Button
+						title={t('homePage.titleButtonHome2')}
+						onClick={toAboutMe}
+						className={styles.btnHome}
+					/>
+
+					<Button
+						title={t('homePage.titleButtonHome')}
+						onClick={clickedResume}
+						className={styles.btnHome}
+					/>
 					{modalOn && (
 						<Modal
 							setModalOn={setModalOn}
@@ -137,19 +139,6 @@ const Home = () => {
 							button={t('homePage.btnModal')}
 						/>
 					)}
-				</motion.div>
-
-				<motion.div className='flex' variants={movementY}>
-					<Button
-						title={t('homePage.titleButtonHome2')}
-						onClick={toAboutMe}
-						className={styles.btnHome}
-					/>
-					<Button
-						title={t('homePage.titleButtonHome')}
-						onClick={toWork}
-						className={styles.btnHome}
-					/>
 				</motion.div>
 			</div>
 			<Footer />
