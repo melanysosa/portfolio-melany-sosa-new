@@ -36,6 +36,7 @@
 		"titleProjects": "Projects",
 		"subtitleProjects": " Check out some of my recent work",
 		"containerProjectUIUX": "UI/UX Design Project: It is a movie and series recommendation application that simplifies the user's search by displaying the platforms where they are available. Created using design thinking methodology",
+		"containerProjectUIUX2": "Daily UI: It's a UI/UX design challenge that pushes me to improve my design skills. It's an exciting way to stay creative and constantly learn in this field",
 		"containerProject1": "This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
 		"containerProject2": "This Weather App shows the implementation of the openweathermap API call with axios. It looks for the weather according to the location you want. It was created with Reactjs and css.",
 		"containerProject3": "(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",

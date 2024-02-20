@@ -6,6 +6,7 @@ import {
 	movementX1,
 } from '../../components/Animations/animations';
 import ProjectUIUX from '../../assets/ProjectUIUX.png';
+import ProjectUIUX2 from '../../assets/DailyUI.png';
 import Project1 from '../../assets/project1.png';
 import Project2 from '../../assets/project2.png';
 import Project3 from '../../assets/project3.png';
@@ -42,6 +43,13 @@ const Work = () => {
 
 				<motion.div className={styles.divContainer2} variants={movementX2}>
 					{/**Grid Item */}
+					<WorkBox
+						pic={ProjectUIUX2}
+						title='Daily UI'
+						showDemoButton={true}
+						demo='https://www.behance.net/gallery/190424817/Daily-UI'
+						text={t('projectsPages.containerProjectUIUX2')}
+					/>
 					<WorkBox
 						pic={ProjectUIUX}
 						title='Flick Flow'
