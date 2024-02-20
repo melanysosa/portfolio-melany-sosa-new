@@ -2,7 +2,7 @@
 	"homePage": {
 		"text1": "Hello!,I'm ",
 		"text2": "Melany Sosa",
-		"text3": "Full-stack developer and UI/UX Designer",
+		"text3": "Front-end developer and UI/UX Designer",
 		"titleButtonHome": "Download resume",
 		"titleButtonHome2": "About Me",
 		"iconLinkedin": "My Linkedin",
@@ -24,7 +24,7 @@
 	},
 	"aboutMePage": {
 		"titleAboutMe": "About me",
-		"part1AboutMe": "Hey there! , my name is Melany,  I'm  a Fullstack developer and UI/UX Designer",
+		"part1AboutMe": "Hey there! , my name is Melany,  I'm  a Front-end developer and UI/UX Designer",
 		"part2AboutMe": "I trained as a self-taught Front-end developer. In 2023, I completed the full-stack MERN course at MDP Programa. Additionally, I studied UI/UX design at Coderhouse to enhance my skills. I love combining both disciplines to bring life to amazing projects. I'm always looking to surpass my own limits and learn something new every day. In my opinion, teamwork is key, as it allows us to share knowledge and enrich ourselves with others' experiences. I created this portfolio with my knowledge as a self-taught Front-end developer, and soon there will be a new version created with my skills as a designer and using Next.js."
 	},
 	"skillsPage": {

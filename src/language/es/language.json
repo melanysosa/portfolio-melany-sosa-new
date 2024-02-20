@@ -2,7 +2,7 @@
 	"homePage": {
 		"text1": "¡Hola!, soy ",
 		"text2": "Melany Sosa",
-		"text3": "Desarrolladora Full-stack y Diseñadora UI/UX",
+		"text3": "Desarrolladora Front-end y Diseñadora UI/UX",
 		"titleButtonHome": "Descargar CV",
 		"titleButtonHome2": "Sobre mi",
 		"iconLinkedin": "Mi Linkedin",
@@ -24,7 +24,7 @@
 	},
 	"aboutMePage": {
 		"titleAboutMe": "Sobre mi",
-		"part1AboutMe": "¡Hola! mi nombre es Melany, soy desarrolladora Full-stack y Diseñadora UI/UX",
+		"part1AboutMe": "¡Hola! mi nombre es Melany, soy desarrolladora Front-end y Diseñadora UI/UX",
 		"part2AboutMe": "Me forme como Front-end developer de manera autodidacta. En 2023 realice el curso full-stack MERN de MDP Programa. Ademas estudie diseño UI/UX en coderhouse para ampliar mis habilidades. Me encanta combinar ambas disciplinas para dar vida a proyectos asombrosos. Siempre estoy buscando superar mis propios límites y aprender algo nuevo cada día. En mi opinión, el trabajo en equipo es clave, ya que nos permite compartir conocimientos y enriquecernos con las experiencias de los demás. Este portafolio lo cree con mis conocimientos como Front-end Autodidacta, proximamente habrá una nueva versión creada con mis conocimientos como diseñadora y con Next.js "
 	},
 	"skillsPage": {
