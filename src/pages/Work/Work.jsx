@@ -5,12 +5,12 @@ import {
 	movementX2,
 	movementX1,
 } from '../../components/Animations/animations';
+import ProjectUIUXFrontEnd from '../../assets/Palettone-Portada.png'
 import ProjectUIUX from '../../assets/ProjectUIUX.png';
 import ProjectUIUX2 from '../../assets/DailyUI.png';
 import Project1 from '../../assets/project1.png';
 import Project2 from '../../assets/project2.png';
 import Project3 from '../../assets/project3.png';
-import Project4 from '../../assets/project4.png';
 import { useTranslation } from 'react-i18next';
 import Footer from '../../components/Footer/Footer';
 import WorkBox from './WorkBox';
@@ -43,6 +43,15 @@ const Work = () => {
 
 				<motion.div className={styles.divContainer2} variants={movementX2}>
 					{/**Grid Item */}
+					<WorkBox
+						pic={ProjectUIUXFrontEnd}
+						title='Daily UI'
+						showDemoButton={true}
+						showCodeButton={true}
+						demo='https://www.behance.net/gallery/195145829/Palettone'
+						code='https://github.com/melanysosa/Palettone_App'
+						text={t('projectsPages.containerProjectUIUXFrontEnd')}
+					/>
 					<WorkBox
 						pic={ProjectUIUX2}
 						title='Daily UI'
@@ -87,15 +96,7 @@ const Work = () => {
 						code='https://github.com/melanysosa/crud-redux-app'
 						text={t('projectsPages.containerProject3')}
 					/>
-					<WorkBox
-						pic={Project4}
-						title='Todo List'
-						showDemoButton={true}
-						showCodeButton={true}
-						demo='https://todo-list-mns.netlify.app/'
-						code='https://github.com/melanysosa/todo-list'
-						text={t('projectsPages.containerProject4')}
-					/>
+					
 				</motion.div>
 			</div>
 			<Footer />

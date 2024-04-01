@@ -10,10 +10,10 @@
 		"iconEmail": "Send me an emai",
 		"iconPerson": "Download my resume",
 		"iconBehance": "My Behance",
-		"cvSpanish":"Spanish",
+		"cvSpanish": "Spanish",
 		"cvEnglish": "English",
-		"titleModal":"Download resume",
-		"btnModal":"Close"
+		"titleModal": "Download resume",
+		"btnModal": "Close"
 	},
 	"navBarPage": {
 		"itemHome": "Home",
@@ -35,6 +35,7 @@
 	"projectsPages": {
 		"titleProjects": "Projects",
 		"subtitleProjects": " Check out some of my recent work",
+		"containerProjectUIUXFrontEnd": "This project merges UI/UX design with front-end development: an application that serves as a tool to create color palettes from images. 🎨💻 ",
 		"containerProjectUIUX": "UI/UX Design Project: It is a movie and series recommendation application that simplifies the user's search by displaying the platforms where they are available. Created using design thinking methodology",
 		"containerProjectUIUX2": "Daily UI: It's a UI/UX design challenge that pushes me to improve my design skills. It's an exciting way to stay creative and constantly learn in this field",
 		"containerProject1": "This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
